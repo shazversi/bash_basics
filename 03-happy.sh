@@ -19,8 +19,8 @@ fi
 echo "is it the weekend?"
 read answer
 
-if [ "$answer" = "yes" ]; then
-   echo "wow have fun!"
+if [ "$answer" != "yes" ]; then
+   echo "almost there"
 else 
-   echo "you are almost there!"
+   echo "woww enjoy!!"
 fi
