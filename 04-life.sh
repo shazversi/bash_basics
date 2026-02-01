@@ -18,8 +18,8 @@ fi
 echo "What time is it (hour 0-24)"
 read hour
 
-if [ "$hour" -ge 5] && [ "$hour" -lt 12]; then
-
+if [ "$hour" -ge 5 ] && [ "$hour" -lt 12 ]; then
 	echo "what a great morning"
 else
 	echo "its not morning!!"
+fi
